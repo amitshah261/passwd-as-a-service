@@ -22,6 +22,7 @@ The application boots up by validating if you want to go with the default paths 
 
 #### Endpoints:
 Once the application boots up, you can hit several GET endpoints:
+
 For passwd:
 
 `localhost:8080/users` - Return a list of all users on the system, as defined in the /etc/passwd file.
@@ -33,6 +34,7 @@ For passwd:
 `localhost:8080/users/<uid>/groups` - Return all the groups for a given user.
 
 For groups:
+
 `localhost:8080/groups` - Return a list of all groups on the system, a defined by /etc/group.
 
 `localhost:8080/groups/query[?name=<nq>][&gid=<gq>][&member=<mq1>[&member=<mq2>][&...]]` - Return a list of groups matching all of the specified query fields. The bracket notation indicates that any of the following query parameters may be supplied: name, gid, members (repeated)
