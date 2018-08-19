@@ -4,9 +4,9 @@ The idea of this challenge is to create a minimal HTTP service that exposes the 
 ## Pre-requisites: 
 
 #### Technologies:
-Java
-Spring Boot
-Maven
+1) Java
+2) Spring Boot
+3) Maven
 
 #### File paths with valid access.
 When the application initializes, it will ask for a valid file which the application can open and follows the valid syntax as stated in the links below:
